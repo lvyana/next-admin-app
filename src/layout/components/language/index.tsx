@@ -40,8 +40,7 @@ const Language: FC<LanguageProps> = ({ lng }) => {
 				aria-label="ToggleTheme"
 				type="text"
 				icon={<IconFont type={'icon-zhongyingwenqiehuan-zhongwen'} style={{ transform: 'scale(1.2)' }} />}
-				onClick={handleSizeChange}
-			></Button>
+				onClick={handleSizeChange}></Button>
 		</>
 	);
 };

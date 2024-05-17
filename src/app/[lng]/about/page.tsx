@@ -18,7 +18,7 @@ const About: FC<AboutProps> = ({ params: { lng } }) => {
 
 	useEffect(() => {
 		console.log(t('about'));
-	}, []);
+	}, [t]);
 
 	return (
 		<Layout path="about" lng={lng}>

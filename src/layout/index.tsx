@@ -79,8 +79,7 @@ const Layout: React.FC<LayoutProps> = ({ lng, children, path }) => {
 							minHeight: 280,
 							background: colorBgContainer,
 							borderRadius: borderRadiusLG
-						}}
-					>
+						}}>
 						<>{children}</>
 					</Content>
 				</AntdLayout>
